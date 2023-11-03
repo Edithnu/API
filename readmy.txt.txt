@@ -30,6 +30,12 @@ curl --location --request DELETE 'http://localhost:5000/personas/334456678' \
 curl --location 'http://localhost:5000/personas' \
 --header 'Content-Type: application/json' \
 --data ''
+OBTENER PERSONA: 
+curl --location --request GET 'http://localhost:5000/personas' \
+--header 'Content-Type: application/json' \
+--data '{
+"dni": "37124931"
+}'
 
 ----------------------------------------------------------------------------------------------------------------
 CREACIÓN BASE DE DATOS EN DBEAVER:
