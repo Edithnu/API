@@ -39,7 +39,7 @@ curl --location --request GET 'http://localhost:5000/personas' \
 
 ----------------------------------------------------------------------------------------------------------------
 CREACIÓN BASE DE DATOS EN DBEAVER:
-Crear nueva tabla llamada persona
-dentro de persona se crea una nueva base de datos llamada persona
+Crear nueva base de datos, llamada persona
+dentro de persona se crea una tabla llamada persona
 se genera la primer columna llamada id, que se autoincremente, en contraints se le asigna a la columna a id la primary key
 se crean las demás columnas, en mi caso, nombre, apellido, dni e email
